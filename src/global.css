@@ -23,6 +23,11 @@
   box-sizing: border-box;
 }
 
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--blue);
+}
+
 body {
   width: 100vw;
   height: 100vh;

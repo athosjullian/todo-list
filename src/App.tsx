@@ -1,5 +1,6 @@
-import './global.css'
+import "./global.css"
 import { Header } from "./components/Header"
+import { Form } from "./components/Form"
 import styles from "./App.module.css"
 
 export function App() {
@@ -8,6 +9,7 @@ export function App() {
     <>
       <Header />
       <div className={styles.wrapper}>
+        <Form />
       </div>
     </>
   ) 
