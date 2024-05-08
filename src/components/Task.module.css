@@ -1,0 +1,53 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--gray-500);
+    border-radius: .5rem; 
+}
+
+.task > div {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.task > div label {
+    display: block;
+    position: relative;
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.task > div label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.task > div label input:checked ~ .checkmark {
+    background-color: var(--purple-dark);
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 999px;
+    border: 2px solid var(--purple-dark);
+    background-color: transparent;
+}
+
+.task > div p {
+    color: var(--gray-100);
+}

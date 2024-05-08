@@ -5,6 +5,7 @@ import { Header } from "./components/Header"
 import { Form } from "./components/Form"
 import { ListHeader } from "./components/ListHeader"
 import { Empty } from "./components/Empty"
+import { Task } from "./components/Task"
 
 export function App() {
 
@@ -17,6 +18,7 @@ export function App() {
         <div>
           <ListHeader />
           <Empty />
+          <Task />
         </div>
       </section>
     </>
