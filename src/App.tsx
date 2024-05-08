@@ -4,6 +4,7 @@ import styles from "./App.module.css"
 import { Header } from "./components/Header"
 import { Form } from "./components/Form"
 import { ListHeader } from "./components/ListHeader"
+import { Empty } from "./components/Empty"
 
 export function App() {
 
@@ -15,6 +16,7 @@ export function App() {
 
         <div>
           <ListHeader />
+          <Empty />
         </div>
       </section>
     </>
