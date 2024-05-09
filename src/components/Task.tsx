@@ -4,7 +4,7 @@ import styles from "./Task.module.css"
 export function Task() {
     return (
         <div className={styles.task}>
-            <div>
+            <div className={styles.checkbox}>
                 <label>
                     <input type="checkbox" name="completed" value="complete" />
                     <span className={styles.checkmark}></span>
