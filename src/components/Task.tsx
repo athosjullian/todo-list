@@ -11,7 +11,7 @@ export function Task() {
                 </label>
                 <p>Task Name</p>
             </div>
-            <Trash size={24} color="var(--gray-300)"/>
+            <Trash className={styles.icon} size={24} />
         </div>
     )
 }
